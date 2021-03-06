@@ -11,21 +11,43 @@ body {
   background :linear-gradient(#1c5380 , 95%, #06365f) no-repeat ;
   background-size: 100vh 40vh
 }
-.home {
+.logoInsta{
+  width: 200px;
+}
+
+.container {
+  ;
+}
+
+.group1{
+  display: flex;
+}
+.group1 .phones {
+  border: 5px solid green;
+}
+.group2{
+  border: 5px solid red;
+}
+.home{
   width: 12vh;
   height: 4vh;
   background-color :#1c5380;
   display: flex;
   border: 1px solid #06365f;
 }
-
-.logoHome {
+ .logoHome {
   width: 30px;
   object-fit: contain;
   margin: auto;
-}
-.home p {
+ }
+ .login {
   color: white;
-  margin: auto
+  margin: auto;
+  text-decoration: none;
 }
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+
 
