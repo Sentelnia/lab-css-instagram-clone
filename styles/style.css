@@ -22,16 +22,23 @@ header {
 main {
   background: white;
   border-radius: 5px;
-  height: 48vh;
+  height: 42vh;
   width: 25vw;
-  padding: 4% 10%
+  padding: 4% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-main > p > span {
-  font-weight: 600;
+
+
+main > p {
+  margin : 2%;
+  text-overflow: clip;
+  overflow: hidden;
 }
 
 .stores{
-  margin-top: 8% 
+  margin-top: auto 
 }
 .apple {
   margin-right: 7%;
@@ -47,7 +54,6 @@ main > p > span {
 .group1{
   display: flex;
   justify-content: space-evenly;
-  height: 65vh;
   width: 70vw;
   margin: auto;
   margin-top: 8% ;
@@ -60,7 +66,6 @@ main > p > span {
   height: 65vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 .home{
   width: 12vh;
@@ -84,7 +89,7 @@ main > p > span {
   text-decoration: none;
 }
 footer{
-  margin: 4% 30%;
+  margin: 4% 25%;
   display: flex;
   justify-content: space-evenly;
 }
