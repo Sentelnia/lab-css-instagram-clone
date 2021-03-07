@@ -1,7 +1,6 @@
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  height: 100vh;
 }
 
 
@@ -10,12 +9,13 @@ header {
   justify-content: space-between;
   
 }
-.logoInsta{
-  width: 200px;
+.logoinsta{
+  width: 18vw
 }
+
 .container {
   background :linear-gradient(#1C5380 , 95%, #06365F) no-repeat; 
-  background-size: 100vw 35vh;
+  background-size: 100% 40%;
   display: flex;
   flex-direction: column;
 }
@@ -23,33 +23,34 @@ main {
   background: white;
   border-radius: 5px;
   height: 48vh;
-  padding: 10px 50px
+  width: 25vw;
+  padding: 4% 10%
 }
 main > p > span {
   font-weight: 600;
 }
 
 .stores{
-  margin-top: 30px 
+  margin-top: 8% 
 }
 .apple {
-  margin-right: 20px;
+  margin-right: 7%;
 }
 
 .tagline{
   color: #06365F;
-  font-size: 1.6em;
+  font-size: 1.6rem;
   font-weight: 600;
-  margin-right: 100px
+  margin-right: 30%
 }
 
 .group1{
   display: flex;
   justify-content: space-evenly;
   height: 65vh;
-  width: 80%;
+  width: 70vw;
   margin: auto;
-  margin-top: 100px ;
+  margin-top: 8% ;
 }
 .group1 .phones {
   height: 59vh; 
@@ -64,13 +65,13 @@ main > p > span {
   background :linear-gradient(#1C5380 , 95%, #06365F) no-repeat; 
   display: flex;
   border: 1px solid #06365F;
-  margin-top: 50px
+  margin-top: 10%
 }
 .logoinsta{
-  margin-top: 10px
+  margin-top: 5%
 }
  .logoHome {
-  width: 30px;
+  width: 2vw;
   object-fit: contain;
   margin: auto;
  }
@@ -80,9 +81,10 @@ main > p > span {
   text-decoration: none;
 }
 footer{
-  margin: 50px 450px;
+  margin: 4% 30%;
   display: flex;
   justify-content: space-evenly;
+  margin-top:
 }
 
 footer > a{
