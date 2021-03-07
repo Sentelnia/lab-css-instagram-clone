@@ -58,6 +58,9 @@ main > p > span {
 .group2{
   width: 60vh;
   height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .home{
   width: 12vh;
@@ -84,7 +87,6 @@ footer{
   margin: 4% 30%;
   display: flex;
   justify-content: space-evenly;
-  margin-top:
 }
 
 footer > a{
